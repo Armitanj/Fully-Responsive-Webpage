@@ -1,0 +1,59 @@
+.materialSec {
+    display: flex;
+    align-items: center;
+}
+
+.materialLeftSide {
+    width: 42%;
+    margin-left: 4rem;
+    text-align: start;
+    line-height: 4rem;
+}
+
+.materialLeftSide span {
+    color: #E58411;
+}
+
+.materialLeftSide .materialTitle {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.materialLeftSide .materialDesk {
+    font-size: 20px;
+    line-height: 2.2rem;
+}
+
+.materialLeftSide .moreInfo {
+    color: #E58411;
+    text-decoration: none;
+}
+
+.materialRightSide {
+    display: flex;
+}
+
+.materialRightSide .img3 {
+    height: 400px;
+    width: 400px;
+    margin-top: 10rem;
+}
+
+.materialRightSide .img1 {
+    margin-bottom: -3rem;
+}
+
+.imgCol {
+    margin-right: -7rem;
+}
+
+.backImg3 {
+    margin-top: 5.6rem;
+    border-top-left-radius: 20px;
+    width: 250px;
+    height: 350px;
+    right: 0.3px;
+    background-color: #F7F7F7;
+    position: absolute;
+    z-index: -2;
+}

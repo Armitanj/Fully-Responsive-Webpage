@@ -1,0 +1,19 @@
+.testimonialsSec {
+    margin-top: 6rem;
+    height: auto;
+}
+
+.testimonialsSec span {
+    color: #E58411;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.testimonialsSec .testimonialsTitle {
+    font-size: 45px;
+    font-weight: 700;
+}

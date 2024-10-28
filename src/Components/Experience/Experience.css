@@ -1,0 +1,58 @@
+.experienceSec {
+    padding: 9rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.backImg1,
+.backImg2 {
+    background-color: #F7F7F7;
+    position: absolute;
+    z-index: -2;
+}
+
+.backImg1 {
+    margin-top: -5rem;
+    border-top-right-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.backImg2 {
+    width: 350px;
+    height: 350px;
+    margin: 3rem 21rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.experienceRightSide {
+    width: 40%;
+    margin-left: 14rem;
+    text-align: start;
+    line-height: 4rem;
+}
+
+.experienceRightSide .exTitle {
+    color: #E58411;
+}
+
+.experienceRightSide .experienceTitle {
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceRightSide .experienceDesk {
+    font-size: 20px;
+    line-height: 2.2rem;
+}
+
+.experienceRightSide .moreInfo {
+    color: #E58411;
+    text-decoration: none;
+}

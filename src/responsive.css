@@ -1,0 +1,364 @@
+/* Extra extra large devices */
+
+@media (max-width: 1400px) {
+
+    /* Header */
+    .menuItems {
+        width: 500px;
+    }
+
+    .title .titleHeader {
+        font-size: 60px;
+    }
+
+    .subTitle p {
+        font-size: 25px;
+    }
+
+    .serachInput input {
+        width: 340px;
+    }
+
+}
+
+/* Extra large devices */
+@media (max-width: 1399px) {
+
+    /* Header */
+    .menuItems {
+        width: 400px;
+    }
+
+    .title .titleHeader {
+        font-size: 58px;
+    }
+
+    .subTitle p {
+        font-size: 27px;
+    }
+
+    .serachInput input {
+        width: 350px;
+    }
+
+    /* Best seller */
+    .productsSection {
+        flex-wrap: wrap;
+    }
+
+    /* Experience */
+    .experienceRightSide {
+        width: 35%;
+        margin-left: 8rem;
+    }
+
+    .experienceRightSide .experienceTitle {
+        font-size: 40px;
+    }
+
+    /* material */
+    .materialRightSide .img3 {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .imgCol {
+        margin-right: 0rem;
+    }
+
+    .backImg3 {
+        display: none;
+    }
+
+    .reviews {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Large devices */
+@media (max-width: 1199px) {
+
+    /* Header */
+    .menuItems {
+        width: 380px;
+    }
+
+    .title .titleHeader {
+        font-size: 48px;
+    }
+
+    .subTitle p {
+        font-size: 24px;
+    }
+
+    .serachInput input {
+        width: 300px;
+    }
+
+    .bottomHeader {
+        grid-template-columns: 350px auto auto auto;
+    }
+
+    .chooseTitle,
+    .bestSellerTitle,
+    .testimonialsSec .testimonialsTitle {
+        font-size: 40px;
+    }
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    /* Best seller */
+    .productsSection {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    /* Testimonials */
+    .experienceSec,
+    .materialSec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .experienceRightSide,
+    .materialLeftSide {
+        margin-left: 0;
+        width: 60%;
+        margin-top: 4rem;
+    }
+
+    .img1 img {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    .backImg1,
+    .backImg2 {
+        display: none;
+    }
+
+    /* material */
+    .materialLeftSide {
+        margin-bottom: 4rem;
+    }
+
+    .materialSec {
+        flex-direction: column-reverse;
+    }
+
+    .materialRightSide {
+        display: inline;
+        margin-top: -4rem;
+    }
+
+    .materialRightSide .img3 {
+        margin-top: 0;
+    }
+
+    .materialLeftSide .materialTitle,
+    .experienceRightSide .experienceTitle {
+        font-size: 37px;
+    }
+
+
+}
+
+/* Medium devices */
+@media (max-width: 991px) {
+
+    /* Header */
+    .menuItems {
+        width: 360px;
+    }
+
+    .title .titleHeader {
+        font-size: 45px;
+    }
+
+    .subTitle p {
+        font-size: 20px;
+    }
+
+    .serachInput input {
+        width: 280px;
+        height: 50px;
+    }
+
+    .serachInput button {
+        width: 40px;
+        height: 40px;
+        margin: 5px -3rem 0;
+    }
+
+    .bottomHeader {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 6rem auto;
+    }
+
+    .chooseTitle {
+        margin-bottom: 3rem;
+        margin: 0 0 4rem 0;
+        flex-direction: row;
+    }
+
+    .chooseTitle span {
+        margin-right: 0.7rem;
+    }
+
+    .info {
+        margin-bottom: 4rem;
+    }
+
+    /* Best seller */
+    .productsSection {
+        justify-content: center;
+    }
+
+    .testimonialsSec {
+        margin-top: -0.2rem;
+    }
+
+    .col2,
+    .col3,
+    .col4 {
+        margin-top: 4rem;
+    }
+
+    .upperFooter,
+    .bottomFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bottomFooter {
+        line-height: 2rem;
+        margin-top: 5rem;
+    }
+}
+
+
+/* Small devices */
+@media (max-width: 767px) {
+
+    /* Header */
+    .menuItems {
+        width: 340px;
+    }
+
+    .title .titleHeader {
+        font-size: 36px;
+    }
+
+    .subTitle p {
+        font-size: 17px;
+    }
+
+    .serachInput input {
+        width: 240px;
+    }
+
+    .chooseTitle {
+        font-size: 30px;
+        text-align: start;
+        margin: 0 0 4rem 0;
+    }
+
+    .bestSellerTitle,
+    .testimonialsSec .testimonialsTitle {
+        font-size: 30px;
+    }
+
+    .experienceSec {
+        padding: 5rem 0;
+    }
+
+    .experienceRightSide .experienceTitle,
+    .materialLeftSide .materialTitle {
+        font-size: 30px;
+    }
+
+    .experienceRightSide .experienceDesk,
+    .materialLeftSide .materialDesk {
+        font-size: 16px;
+        line-height: 1.9rem;
+        margin-top: 1.5rem;
+    }
+
+    .img1 img {
+        width: 400px;
+    }
+
+    .bottomFooter .span2 {
+        margin-right: 0rem;
+    }
+
+    .bottomFooter {
+        padding: 0px;
+    }
+
+    .bottomBottomFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+/* Extra small devices */
+@media(max-width: 575px) {
+
+    /* Header */
+    .menuItems {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    .title .titleHeader {
+        font-size: 34px;
+    }
+
+    .subTitle p {
+        font-size: 14px;
+    }
+
+    .serachInput input {
+        width: 220px;
+        height: 40px;
+    }
+
+    .serachInput input::placeholder {
+        font-size: 14px;
+    }
+
+    .serachInput button {
+        width: 30px;
+        height: 30px;
+        margin: 5px -2.3rem 0;
+    }
+
+    .serachInput button .searchIcon {
+        font-size: 18px;
+        margin-top: -7px;
+    }
+
+    .experienceRightSide .experienceTitle,
+    .materialLeftSide .materialTitle {
+        font-size: 25px;
+    }
+
+    .imgCol {
+        display: none;
+    }
+}

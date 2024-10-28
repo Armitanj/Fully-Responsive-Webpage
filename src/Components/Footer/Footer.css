@@ -1,0 +1,53 @@
+.footerSec {
+    height: auto;
+    background-color: #F7F7F7;
+    padding: 6rem 0 4rem 0;
+}
+
+.upperFooter {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.upperFooter a {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.col1 .footerDes {
+    font-size: 17px;
+    color: #1E1E1E;
+    font-weight: 300;
+}
+
+.footerTitle {
+    color: #F6973F;
+}
+
+
+.bottomFooter {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12.4rem;
+}
+
+.span1,
+.span2,
+.span3 {
+    cursor: pointer;
+}
+
+.bottomFooter .span1 {
+    color: #1E2833;
+    opacity: 0.9;
+}
+
+.bottomFooter .span2 {
+    margin-right: 2rem;
+}
+
+.socialIcons {
+    margin-right: 0.7rem;
+}
